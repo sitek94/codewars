@@ -1,0 +1,20 @@
+{
+  "name": "codewars",
+  "version": "1.0.0",
+  "description": "I'm developing a habit of solving one Kata from Codewars everyday.",
+  "author": "Maciek Sitkowski",
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  },
+  "scripts": {
+    "dev": "nodemon --quiet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sitek94/codewars.git"
+  },
+  "license": "ISC",
+  "homepage": "https://github.com/sitek94/codewars#readme"
+}
