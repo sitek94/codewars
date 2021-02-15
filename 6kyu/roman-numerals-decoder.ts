@@ -1,8 +1,6 @@
-/**
- * Roman Numerals Decoder
- * 
- * https://www.codewars.com/kata/51b6249c4612257ac0000005/train/typescript
- */
+// Roman Numerals Decoder
+// https://www.codewars.com/kata/51b6249c4612257ac0000005/train/typescript
+
 
 const symbols: Record<string, number> = {
   I: 1,
@@ -14,7 +12,7 @@ const symbols: Record<string, number> = {
   M: 1000,
 };
 
-function solution(roman: string): number {
+export function solution(roman: string): number {
   let total = 0;
 
   for (let i = 0; i < roman.length; i++) {
