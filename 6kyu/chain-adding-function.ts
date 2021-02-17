@@ -1,5 +1,3 @@
-console.clear();
-
 // A chain adding function
 // https://www.codewars.com/kata/539a0e4d85e3425cb0000a88/javascript
 
@@ -11,16 +9,19 @@ function add(x: number): any {
 }
 
 console.log(`When we log just this, we will get a function object\n`, add(1));
-console.log(`But here add(1) will get coerced to a primitive value\n`, add(1) + 2);
+console.log(
+  `But here add(1) will get coerced to a primitive value\n`,
+  add(1) + 2,
+);
 
-// Some experimenting 
+// Some experimenting
 function test(x: number): any {
-  console.log(x)
+  console.log(x);
   return (y: number) => test(y);
 }
 
-test.valueOf = () => "Test Func";
+test.valueOf = () => 'Test Func';
 
 test(1)(2)(3);
 
-console.log(test + " got coerced to a primitive value");
+console.log(test + ' got coerced to a primitive value');
