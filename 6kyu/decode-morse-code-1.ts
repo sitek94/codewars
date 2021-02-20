@@ -1,3 +1,6 @@
+// Decode the Morse code part 1/3
+// https://www.codewars.com/kata/54b724efac3d5402db00065e/solutions/typescript
+
 import MORSE_CODE from '../util/morse-code-decode';
 
 export function decodeMorse(morseCode: string) {
