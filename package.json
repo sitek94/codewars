@@ -4,6 +4,7 @@
   "description": "I'm developing a habit of solving one Kata from Codewars everyday.",
   "author": "Maciek Sitkowski",
   "devDependencies": {
+    "@types/node": "^14.14.31",
     "nodemon": "^2.0.7",
     "ts-node": "^9.1.1",
     "typescript": "^4.1.3"
